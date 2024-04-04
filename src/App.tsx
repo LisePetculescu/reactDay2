@@ -10,7 +10,7 @@ import StateDemo1 from "./exercises/StateDemo1";
 import StateDemo2 from "./exercises/StateDemo2";
 import StateDemo3 from "./exercises/StateDemo3";
 import UseEffectDemo from "./exercises/UseEffect";
-// import FetchDemo1 from "./exercises/FetchDemo";
+import FetchDemo1 from "./exercises/FetchDemo";
 
 export default function App() {
   const [selectedView, setSelectedView] = useState("info");
@@ -40,7 +40,7 @@ export default function App() {
             {selectedView == "stateDemo2" ? <StateDemo2 title="stateDemo2"></StateDemo2> : null}
             {selectedView == "stateDemo3" ? <StateDemo3 title="stateDemo3"></StateDemo3> : null}
             {selectedView == "useEffect" ? <UseEffectDemo title="stateDemo3"></UseEffectDemo> : null}
-            {/* {selectedView == "fetchDemo" ? <FetchDemo1 title="fetchDemo"></FetchDemo1> : null} */}
+            {selectedView == "fetchDemo" ? <FetchDemo1 title="fetchDemo"></FetchDemo1> : null}
 
             {/* *Add the exercise components you create for each exercise using the key you used for the matching button  */}
           </div>
