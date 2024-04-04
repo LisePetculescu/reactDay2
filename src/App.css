@@ -1,0 +1,177 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.exercise-style {
+  flex: 3;
+  padding: 10px;
+  width: 800px;
+  text-align: left;
+  border-left: 2px solid black;
+}
+
+
+.header-style {
+  border-bottom: solid 2px blue;
+  margin-bottom: 20px;
+}
+
+
+.outer-div-style {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  flex-direction: column;
+}
+
+
+button {
+  background-color: #008cba; /* Green */
+  border: none;
+  border-radius: 4px;
+
+
+  color: white;
+  padding: 5px 5px;
+  margin: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+}
+
+
+button:hover {
+  background-color: lightblue;
+  color: white;
+}
+
+
+.btn-w100 {
+  width: 100%;
+}
+.title {
+  font-size: x-large;
+  color: darkgreen;
+  margin-bottom: 3px;
+}
+
+
+.info {
+  font-style: italic;
+  color: darkgreen;
+  margin-bottom: 8px;
+}
+
+
+.imageButton {
+  border: none;
+  background: none;
+  max-width: 10vw;
+}
+
+.imageButton img {
+  width: 100%;
+}
+
+
+.imageButton:hover {
+  background-color: rgba(0, 0, 0, 0.1); /* Light grey background on hover */
+}
+
+
+.simple-table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+  border-collapse: collapse;
+}
+
+
+.simple-table th,
+.simple-table td {
+  padding: 0.25rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+
+.simple-table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+
+.simple-table tbody + tbody {
+  border-top: 2px solid #dee2e6;
+}
+
+
+.box {
+  border: solid brown;
+  border-radius: 5px;
+  margin: 10px;
+  margin-top: 5px;
+  background-color: bisque;
+  text-align: center;
+}
+
+
+.root-box {
+  border: solid brown;
+  background-color: orange;
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
